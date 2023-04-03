@@ -75,7 +75,7 @@ We also used "forms" to ask your visitor's data (his name). You can find the For
 
 It also works on Whatsapp!
 
-Just push the green button et...voilà, it's ready designed to run on Whatsapp!
+Just push the green button et...voilà, it's ready to run on Whatsapp!
 
 ![image](https://user-images.githubusercontent.com/32564846/229617345-f2e406ed-3a61-442b-8fd0-333769a328fc.png)
 
