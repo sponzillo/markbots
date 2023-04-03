@@ -10,6 +10,9 @@ The test makes wide use of attributes. Attributes are a great way to manage your
 
 <img width="900" alt="image" src="https://user-images.githubusercontent.com/32564846/229454502-1a652f48-56c0-4ecc-a1b4-3f6c4f625afa.png">
 
+The test starts with the “Start quiz” button in the “start” block. Set up the “total” attribute to his initial value of zero when the button is pressed.
+**TIP**: Button’s “Attributes” option allows you to set up as many attributes as you want on a single button pressure.
+
 ## Proactive rules
 
 We also created a rule to proactively engage your visitors to open and complete the test.
