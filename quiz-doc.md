@@ -82,8 +82,7 @@ It also works on Whatsapp!
 
 Just push the green button et...voilà, it's ready to run on Whatsapp!
 
-
-<img width="900" alt="image" src="https://user-images.githubusercontent.com/32564846/229617345-f2e406ed-3a61-442b-8fd0-333769a328fc.png">
+<img width="300" alt="image" src="https://user-images.githubusercontent.com/32564846/229617345-f2e406ed-3a61-442b-8fd0-333769a328fc.png">
 
 ## Conclusions
 
