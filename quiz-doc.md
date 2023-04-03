@@ -49,7 +49,7 @@ Take a look at the branh_result block. It's made by threee condition-actions. Ea
 And the result...
 
 
-<img width="900" alt="image" src="https://user-images.githubusercontent.com/32564846/229619734-f3863691-d384-4b7e-824c-d9e1e76ff938.png">
+<img width="300" alt="image" src="https://user-images.githubusercontent.com/32564846/229619734-f3863691-d384-4b7e-824c-d9e1e76ff938.png">
 
 
 ## Proactive rules
@@ -57,7 +57,7 @@ And the result...
 We also created a rule to proactively engage your visitors to open and complete the test.
 
 
-<img width="900" alt="image" src="https://user-images.githubusercontent.com/32564846/229613928-601a56e4-971d-4e0e-b6c8-6b89b80013d7.png">
+<img width="300" alt="image" src="https://user-images.githubusercontent.com/32564846/229613928-601a56e4-971d-4e0e-b6c8-6b89b80013d7.png">
 
 Setup your proactive rule in the rules section:
 
