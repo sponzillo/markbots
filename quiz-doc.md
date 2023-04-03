@@ -13,6 +13,17 @@ The test makes wide use of attributes. Attributes are a great way to manage your
 The test starts with the “Start quiz” button in the “start” block. Set up the “total” attribute to his initial value of zero when the button is pressed.
 **TIP**: Button’s “Attributes” option allows you to set up as many attributes as you want on a single button pressure.
 
+<img width="1132" alt="image" src="https://user-images.githubusercontent.com/32564846/229460968-d180dc71-e92d-464b-88ce-79f7b61139c1.png">
+
+The first question simply proposes four possible replies (plus a "Cancel test" option), where only one is true.
+
+We always use the Button's Attributes feature to set the current test score. Every time the user pushes the correct reply the total score increases of the choosen points amount. When an incorrect reply is selected the score is set to zero.
+
+<img width="1132" alt="image" src="https://user-images.githubusercontent.com/32564846/229462520-f656e68e-5912-45b0-b9d4-63ef91e61ae4.png">
+
+<img width="1920" alt="image" src="https://user-images.githubusercontent.com/32564846/229464270-bbdce1af-7efb-4095-8a34-52009384e0f0.png">
+
+
 ## Proactive rules
 
 We also created a rule to proactively engage your visitors to open and complete the test.
