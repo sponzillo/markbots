@@ -4,7 +4,7 @@ You can use this chatbot to submit a simple test to your audience.
 
 This test makes wide use of "attributes" and "conditions" (aka the "flow").
 
-## Design
+## Quiz Design
 
 The test makes wide use of attributes. Attributes are a great way to manage your chatbot flow, and they are especially useful to store some in-flow data using it later to manage your flow with conditions (you can use your attributes in other actions too). 
 
