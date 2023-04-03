@@ -12,7 +12,7 @@ The test makes wide use of attributes. Attributes are a great way to manage your
 
 The test starts with the “Start quiz” button in the **“start” block**. Set up the _total_ attribute to his initial value of zero when the button is pressed.
 
-> **TIP**: Button’s “Attributes” option allows you to set up as many attributes as you want on a single button pressure.
+> TIP: Button’s “Attributes” option allows you to set up as many attributes as you want on a single button pressure.
 
 <img width="900" alt="image" src="https://user-images.githubusercontent.com/32564846/229460968-d180dc71-e92d-464b-88ce-79f7b61139c1.png">
 
