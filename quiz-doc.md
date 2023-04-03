@@ -14,7 +14,7 @@ The test starts with the “Start quiz” button in the **“start” block**. S
 
 > TIP: Button’s “Attributes” option allows you to set up as many attributes as you want on a single button pressure.
 
-<img width="900" alt="image" src="https://user-images.githubusercontent.com/32564846/229460968-d180dc71-e92d-464b-88ce-79f7b61139c1.png">
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/32564846/229460968-d180dc71-e92d-464b-88ce-79f7b61139c1.png">
 
 <img width="528" alt="image" src="https://user-images.githubusercontent.com/32564846/229474089-13f48286-2c11-4d36-8803-1668f9a2412a.png">
 
