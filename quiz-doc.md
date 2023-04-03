@@ -15,6 +15,8 @@ The test starts with the “Start quiz” button in the **“start” block**. S
 
 <img width="1132" alt="image" src="https://user-images.githubusercontent.com/32564846/229460968-d180dc71-e92d-464b-88ce-79f7b61139c1.png">
 
+<img width="528" alt="image" src="https://user-images.githubusercontent.com/32564846/229474089-13f48286-2c11-4d36-8803-1668f9a2412a.png">
+
 The first question (**question1 block**) simply proposes four possible replies (plus a "Cancel test" option), where only one is true.
 
 We always use the Button's Attributes feature to set the current test score. Every time the user pressed the correct reply's botton the total score increases of the corresponding amount. When an incorrect reply is selected the score is set to zero.
