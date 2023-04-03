@@ -10,12 +10,12 @@ The test makes wide use of attributes. Attributes are a great way to manage your
 
 <img width="900" alt="image" src="https://user-images.githubusercontent.com/32564846/229458815-17de81e8-55b1-403e-8773-d2e584514b77.png">
 
-The test starts with the “Start quiz” button in the “start” block. Set up the “total” attribute to his initial value of zero when the button is pressed.
+The test starts with the “Start quiz” button in the **“start” block**. Set up the _total_ attribute to his initial value of zero when the button is pressed.
 **TIP**: Button’s “Attributes” option allows you to set up as many attributes as you want on a single button pressure.
 
 <img width="1132" alt="image" src="https://user-images.githubusercontent.com/32564846/229460968-d180dc71-e92d-464b-88ce-79f7b61139c1.png">
 
-The first question simply proposes four possible replies (plus a "Cancel test" option), where only one is true.
+The first question (**question1 block**) simply proposes four possible replies (plus a "Cancel test" option), where only one is true.
 
 We always use the Button's Attributes feature to set the current test score. Every time the user pressed the correct reply's botton the total score increases of the corresponding amount. When an incorrect reply is selected the score is set to zero.
 
@@ -23,8 +23,16 @@ We always use the Button's Attributes feature to set the current test score. Eve
 
 <img width="1920" alt="image" src="https://user-images.githubusercontent.com/32564846/229464270-bbdce1af-7efb-4095-8a34-52009384e0f0.png">
 
-Now move to question2. From now on, until the last question, each question will have the same identical structure.
+Now move to **question2**. From now on, until the last question, each question will have the same identical structure.
 On each question we simply increase the "total" score adding the current reply's score coming from the previuos button press.
+
+<img width="1195" alt="image" src="https://user-images.githubusercontent.com/32564846/229466456-b72a3dc9-b3f6-44a8-9aa2-a6c83de5c199.png">
+
+The first action of each question always computes the new total, adding the actual question score - the one you got by pressing the choosen reply-button.
+
+It’s a simple add operation:
+
+total = total + score
 
 ## Proactive rules
 
