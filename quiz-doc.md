@@ -30,7 +30,7 @@ On each question we simply increase the "total" score adding the current reply's
 
 The first action of each question always computes the new total, adding the actual question score - the one you got by pressing the choosen reply-button.
 
-It’s a simple add operation:
+After all, it’s a simple _add_ operation:
 
 ```
 total = total + score
