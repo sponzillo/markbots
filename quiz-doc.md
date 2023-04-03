@@ -32,7 +32,9 @@ The first action of each question always computes the new total, adding the actu
 
 It’s a simple add operation:
 
+```
 total = total + score
+```
 
 ## Proactive rules
 
