@@ -1,10 +1,10 @@
 This simple chatbot gets user data through a dyna-form and then creates (or updates) a Contact on [Sendinblue](https://www.sendinblue.com/).
 
-To use this integration you need a Sendinblue API-KEY. Please follow the corresponding [Sendinblue docs](https://developers.sendinblue.com/docs) to learn how to create one.
+To use this integration you need a **Sendinblue API-KEY**. Please follow the corresponding [Sendinblue docs](https://developers.sendinblue.com/docs) to learn how to create one.
 
-The main block is _askandsend_
+The main block is _askandsend_.
 
-This block first asks has a form configured to ask the follwing data, creating the corresponding attributes:
+This block uses a form to ask the follwing data, creating the corresponding chatbot attributes:
 
 * User first name. Attribute: _firstname_
 * User full name. Attribute: _lastname_
