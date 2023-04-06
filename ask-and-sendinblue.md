@@ -10,4 +10,4 @@ This block first asks has a form configured to ask the follwing data, creating t
 * User full name. Attribute: _lastname_
 * User email. Attribute: _userEmail_
 
-<img width="600" src="https://user-images.githubusercontent.com/32564846/230483768-3da10f9e-19dc-4eb6-9bf1-4b878578ae05.png">
+<img width="800" src="https://user-images.githubusercontent.com/32564846/230483768-3da10f9e-19dc-4eb6-9bf1-4b878578ae05.png">
