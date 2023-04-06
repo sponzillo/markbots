@@ -49,9 +49,6 @@ As soon as the conversation ends The WebRequest action sends all the contact dat
 <img width="800" src="https://user-images.githubusercontent.com/32564846/230488362-fee01c5f-d499-4f24-a64d-299a491a72fd.png">
 
 
-Hope you enjoy this simple chatbot :)
+Hope you enjoy this simple chatbot 🤖
 
-If you need any help please feel free to contact me at _andrea_ _at_ _tiledesk.com_!
-
-
-
+If you need any help please feel free to contact me at _andrea_ _at_ _tiledesk.com_ 🤓
