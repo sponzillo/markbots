@@ -26,5 +26,23 @@ Setup the HTTP url with the documented API endpoint using the **POST** HTTP meth
 https://api.sendinblue.com/v3/contacts
 ```
 
-Then setup all the HTTP headers fields as in the picture, taking care to set the api-key header field with your own Seindinblue API-KEY.
+Then setup all the HTTP headers fields as in the picture, taking care to set the api-key header field with your own **Seindinblue API-KEY**.
+
+Now move to the body section and set the dyna-form related attributes in the Sendinblue JSON body, as shown in the picture:
+
+<img width="800" src="https://user-images.githubusercontent.com/32564846/230486589-c0cf1333-7281-4808-91e6-b891717aaf7d.png">
+
+Well, now press _Test it out_ to see the chatbot in action:
+
+<img width="800" src="https://user-images.githubusercontent.com/32564846/230487247-29c9af2d-f20c-449f-9267-9d8ab9047632.png">
+
+As soon as the conversation ends The WebRequest action sends all the contact data to Sendinblue Contacts. You we'll see your updated contact in the Sendinblue's Contact center:
+
+<img width="800" src="https://user-images.githubusercontent.com/32564846/230488362-fee01c5f-d499-4f24-a64d-299a491a72fd.png">
+
+Hope you enjoy this simple chatbot :)
+
+If you need any help please feel free to contact me at _andrea_ _at_ _tiledesk.com_!
+
+
 
