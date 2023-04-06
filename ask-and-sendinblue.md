@@ -35,7 +35,7 @@ Then setup all the HTTP headers fields as in the picture, taking care to set the
 Now move to the body section and set the dyna-form related attributes in the Sendinblue JSON body, as shown in the picture:
 
 
-<img width="800" src="https://user-images.githubusercontent.com/32564846/230486589-c0cf1333-7281-4808-91e6-b891717aaf7d.png">
+<img width="700" src="https://user-images.githubusercontent.com/32564846/230486589-c0cf1333-7281-4808-91e6-b891717aaf7d.png">
 
 
 Well, now press _Test it out_ to see the chatbot in action:
