@@ -18,7 +18,7 @@ To achieve this goal first add a _WebRequest_ Action from the side menu.
 
 The WebRequest Action simply executes an HTTP call to the Sendinblue "create a contact" REST API (See related [create a contact](https://developers.sendinblue.com/reference/createcontact) documentation)
 
-<img width="800" src="https://user-images.githubusercontent.com/32564846/230484855-710c0640-4a7e-4b0e-ba29-588d6583ac2e.png">
+<img width="800" src="https://user-images.githubusercontent.com/32564846/230486051-77035d0e-97be-48a2-bc37-5418134aa952.png">
 
 Setup the HTTP url with the documented API endpoint using the **POST** HTTP method.
 
