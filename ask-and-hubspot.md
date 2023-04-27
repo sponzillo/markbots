@@ -44,6 +44,15 @@ Now move to the body section and set the dyna-form related attributes in the Hub
 
 <img width="700" src="https://user-images.githubusercontent.com/32564846/234833085-4e3a60cc-538a-45db-a6fb-dd18fce5c926.png">
 
+``` Contact JSON body
+{
+	"properties": {
+		"email": "${userEmail}",
+		"firstname": "${firstname}",
+		"lastname": "${lastname}"
+	}
+}
+```
 Well, now press _Test it out_ to see the chatbot in action:
 
 <img width="400" src="https://user-images.githubusercontent.com/32564846/230487247-29c9af2d-f20c-449f-9267-9d8ab9047632.png">
