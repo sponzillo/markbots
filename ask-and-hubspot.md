@@ -28,14 +28,14 @@ Now back to our chatbot. Add a _WebRequest_ Action from the side menu.
 
 The WebRequest Action simply executes an HTTP call to the Hubspot "create a contact" REST API. See related [https://developers.hubspot.com/docs/api/crm/contacts](https://developers.hubspot.com/docs/api/crm/contacts) documentation.
 
-![image](https://user-images.githubusercontent.com/32564846/234832565-71d03e20-4afa-4383-9363-a0a0636c340d.png)
-
 <img width="800" src="https://user-images.githubusercontent.com/32564846/234832565-71d03e20-4afa-4383-9363-a0a0636c340d.png">
 
 Setup the HTTP url with the documented API endpoint using the **POST** HTTP method.
 
+Hubspot contact's **API endpoint**:
+
 ```
-https://api.sendinblue.com/v3/contacts
+[https://api.sendinblue.com/v3/contacts](https://api.hubapi.com/crm/v3/objects/contacts)
 ```
 
 Then setup all the HTTP headers fields as in the picture, taking care to set the Authorization header field with your own **Access token**.
@@ -44,7 +44,9 @@ Now move to the body section and set the dyna-form related attributes in the Hub
 
 <img width="700" src="https://user-images.githubusercontent.com/32564846/234833085-4e3a60cc-538a-45db-a6fb-dd18fce5c926.png">
 
-``` Contact JSON body
+**Contact JSON body**:
+
+```
 {
 	"properties": {
 		"email": "${userEmail}",
