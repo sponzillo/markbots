@@ -1,6 +1,6 @@
 This simple chatbot gets user data through a dyna-form and then creates (or updates) a Contact on [Hubspot](https://www.hubspot.com/).
 
-To use this integration you need a **Sendinblue API-KEY**. Please follow the corresponding [Sendinblue docs](https://developers.sendinblue.com/docs) to learn how to create one.
+To use this integration you need a **Hubspot Access token**. We'll learn how to create one.
 
 The main block is _askandsend_.
 
@@ -14,7 +14,9 @@ This block uses a form to ask the follwing data, creating the corresponding chat
 
 Once the form is configured you can move to the next step, sending contact's data to Hubspot.
 
-To achieve this goal first [create a new Private App](https://developers.hubspot.com/docs/api/migrate-an-api-key-integration-to-a-private-app#create-a-new-private-app) on Hubspot. In this way you will get a new token to connect to their APIs.
+To achieve this goal first [create a new Private App](https://developers.hubspot.com/docs/api/migrate-an-api-key-integration-to-a-private-app#create-a-new-private-app) on Hubspot. In this way you will get a new **Access token** to connect to their APIs.
+
+## Hubspot Private app
 
 When asked, select the "scope" of your app, taking care of selectiong "contacts" and assigning at least the Write permission (that we use for our chatbot).
 
@@ -23,6 +25,8 @@ When asked, select the "scope" of your app, taking care of selectiong "contacts"
 Once created you can go to the App's details page where you can get your **Access token**. We'll use this later.
 
 ![image](https://user-images.githubusercontent.com/32564846/234831540-222c7e03-3379-483f-a98c-a956e79ef1d5.png)
+
+## Configure your connection
 
 Now back to our chatbot. Add a _WebRequest_ Action from the side menu.
 
