@@ -35,7 +35,7 @@ Setup the HTTP url with the documented API endpoint using the **POST** HTTP meth
 Hubspot contact's **API endpoint**:
 
 ```
-[https://api.sendinblue.com/v3/contacts](https://api.hubapi.com/crm/v3/objects/contacts)
+https://api.hubapi.com/crm/v3/objects/contacts
 ```
 
 Then setup all the HTTP headers fields as in the picture, taking care to set the Authorization header field with your own **Access token**.
@@ -57,11 +57,11 @@ Now move to the body section and set the dyna-form related attributes in the Hub
 ```
 Well, now press _Test it out_ to see the chatbot in action:
 
-<img width="400" src="https://user-images.githubusercontent.com/32564846/230487247-29c9af2d-f20c-449f-9267-9d8ab9047632.png">
+<img width="400" src="https://user-images.githubusercontent.com/32564846/234834425-7f08f8e8-ef08-4f69-8f02-8ceae56996b4.png">
 
 As soon as the conversation ends The WebRequest action sends all the contact data to Hubspot Contacts. You we'll see your updated contact in the Hubspot's Contact center:
 
-<img width="800" src="https://user-images.githubusercontent.com/32564846/230488362-fee01c5f-d499-4f24-a64d-299a491a72fd.png">
+<img width="800" src="https://user-images.githubusercontent.com/32564846/234834974-950e0856-6218-4f0d-99ea-a7a7e2998389.png">
 
 Hope you enjoy this simple chatbot 🤖
 
