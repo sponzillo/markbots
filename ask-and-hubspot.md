@@ -24,7 +24,7 @@ When asked, select the "scope" of your app, taking care of selectiong "contacts"
 
 Once created you can go to the App's details page where you can get your **Access token**. We'll use this later.
 
-![image](https://user-images.githubusercontent.com/32564846/234831540-222c7e03-3379-483f-a98c-a956e79ef1d5.png)
+<img width="800" src="https://user-images.githubusercontent.com/32564846/234831540-222c7e03-3379-483f-a98c-a956e79ef1d5.png">
 
 ## Configure your connection
 
