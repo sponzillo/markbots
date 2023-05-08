@@ -12,7 +12,7 @@ We set initial data for the test in "start" block:
 
 **user_SSN** attribute:
 
-<img width="1673" alt="image" src="https://user-images.githubusercontent.com/32564846/236867899-720a092e-4a10-484f-b999-a9cdf43820f9.png">
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/32564846/236867899-720a092e-4a10-484f-b999-a9cdf43820f9.png">
 
 And **apikey** attribute:
 
@@ -22,7 +22,7 @@ And **apikey** attribute:
 
 We use [handlebars syntax](https://handlebarsjs.com/guide/expressions.html) to get data back from JSON and assign those data to custom attributes
 
-![image](https://user-images.githubusercontent.com/32564846/236868589-6cb7a4b3-25f4-4448-9f1d-f76960aa9720.png)
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/32564846/236868589-6cb7a4b3-25f4-4448-9f1d-f76960aa9720.png">
 
 We got the JSON using this [replit app](https://replit.com/@tiledesk/test-webrequest-json-attributes#index.js)
 
@@ -93,7 +93,7 @@ With the following syntax:
 
 Look there:
 
-![image](https://user-images.githubusercontent.com/32564846/236870499-cd0e93b1-c832-47da-83d7-6e9bd88c150a.png)
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/32564846/236870499-cd0e93b1-c832-47da-83d7-6e9bd88c150a.png">
 
 Hope this helps you enjoy the power of the new Tiledesk WebRequest Action!
 
