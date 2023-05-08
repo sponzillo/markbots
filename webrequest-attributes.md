@@ -2,11 +2,11 @@ This chatbot demonstrates how to use all the new features of the WebRequest Acti
 
 Now you can use all the attributes set in your chatbot in all WebRequest Action's metadata, as shown in the following figure:
 
-![image](https://user-images.githubusercontent.com/32564846/236867311-86ee319e-c192-4af5-bd48-12c51728b5de.png)
+<img width="1006" alt="image" src="https://user-images.githubusercontent.com/32564846/236867311-86ee319e-c192-4af5-bd48-12c51728b5de.png">
 
 And in JSON Body too!
 
-![image](https://user-images.githubusercontent.com/32564846/236867695-c5c6af19-77e8-4abf-99b1-25bfc044f954.png)
+<img width="1006" alt="image" src="https://user-images.githubusercontent.com/32564846/236867695-c5c6af19-77e8-4abf-99b1-25bfc044f954.png">
 
 We set initial data for the test in "start" block:
 
