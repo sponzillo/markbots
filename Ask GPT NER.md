@@ -6,6 +6,8 @@ In this chatbot I used a special prompt to ask ChatGPT to reply me with a JSON s
 
 <img width="1030" alt="image" src="https://github.com/sponzillo/markbots/assets/32564846/cb22ad70-050b-461b-9b4a-c3d0dc3ebe23">
 
+The used prompt:
+
 ```
 The user provided the info in the "user reply" section below. Can you detect thei fullname and email? Once detected please reply with the following JSON structure, fufilled with the detected entities. Please when the user don't provide some of the previous info fulfill the corrispondent one with null.
 {
@@ -15,7 +17,12 @@ The user provided the info in the "user reply" section below. Can you detect the
 User reply: {{user_reply}}
 ```
 
-Decoded entities are then put moved into the conversation attributes, so they can be used with a form.
+The prompt will reply with a JSON fulfilled with the requested attributes.
+
+I asked to fulfill with "null" values when entities are not recognied, so the corrispondent form fields are automatically triggered.
+
+Decoded entities are then moved into the conversation attributes, so they can be used with a form.
 
 The form will ask the user for all the missing entities automatically.
 
+Feel free to contact me at support@tiledesk.com
