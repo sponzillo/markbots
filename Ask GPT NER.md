@@ -1,4 +1,4 @@
-Get user data decoding entities like email and fullname directly from the user text.
+This chatbot will decode entities like "email" and "fullname" directly from the user text with a simple ChatGPT prompt.
 
 <img width="1702" alt="image" src="https://github.com/sponzillo/markbots/assets/32564846/abdbd3c7-b5c8-46dc-8139-9e1b71eb9708">
 
@@ -21,7 +21,9 @@ The prompt will reply with a JSON fulfilled with the requested attributes.
 
 I asked to fulfill with "null" values when entities are not recognied, so the corrispondent form fields are automatically triggered.
 
-Decoded entities are then moved into the conversation attributes, so they can be used with a form.
+The returned JSON is automatically converted to a JSON object. The GPT Task action always checks if the returned GPT response ha a JSON structure. In this case the returned payload is automatically converted to a JSON object.
+
+Decoded entities are then moved into the conversation attributes as "flat" attributes, so they can be used within a form.
 
 The form will ask the user for all the missing entities automatically.
 
